@@ -3,3 +3,5 @@
 nickname=NetWars
 server=irc.server.com
 port=6667
+channel=#NetWars
+nataddr=CHANGE THIS TO YOUR IP

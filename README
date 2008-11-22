@@ -12,7 +12,13 @@ I hope someone will find this worthwhile.
 ----------------------------------------------------
 
      - Modify the example confs to meet your needs
+
      - Make sure the bot.pl file is executable,
        or run it by typing 'perl bot.pl'
+
      - Enjoy :)
+
+     - If you need to debug things, just run
+       with '--debug'
+
 ----------------------------------------------------

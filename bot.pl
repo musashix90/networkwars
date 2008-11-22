@@ -23,7 +23,7 @@ $botConfig->read( 'bot.conf' );
 my $nickname = $botConfig->{default}->{nickname};
 my $server = $botConfig->{default}->{server};
 my $port = $botConfig->{default}->{port};
-my @channels = $botConfig->{default}->{channel};
+my $channel = $botConfig->{default}->{channel};
 my $nataddr = $botConfig->{default}->{nataddr};
 
 my $dsn = "dbi:mysql:". $sqlConfig->{default}->{db} .":localhost:3306";
@@ -61,7 +61,7 @@ sub irc_001 {
     my $sender = $_[SENDER];
     my $irc = $sender->get_heap();
     print "Connected to ", $irc->server_name(), "\n" if defined($debug);
-    $irc->yield( join => $_ ) for @channels;
+    $irc->yield( join => $channel );
     return;
 }
 
