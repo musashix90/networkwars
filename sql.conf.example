@@ -1,0 +1,5 @@
+# Change the following values to meet your needs
+# Remember to save this as sql.conf
+db=netwars
+user=netwars
+passwd=netwars

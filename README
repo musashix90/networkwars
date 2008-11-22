@@ -1,0 +1,18 @@
+----------------------------------------------------
+                NetWars IRC Bot
+----------------------------------------------------
+
+     This bot was written for fun, in my spare time.
+I hope someone will find this worthwhile.
+
+                                        - MusashiX90
+
+----------------------------------------------------
+                 Instructions
+----------------------------------------------------
+
+     - Modify the example confs to meet your needs
+     - Make sure the bot.pl file is executable,
+       or run it by typing 'perl bot.pl'
+     - Enjoy :)
+----------------------------------------------------

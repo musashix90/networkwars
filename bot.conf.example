@@ -1,0 +1,5 @@
+# Change the following values to meet your needs
+# Remember to save this file as bot.conf
+nickname=NetWars
+server=irc.server.com
+port=6667
